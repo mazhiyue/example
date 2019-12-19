@@ -19,13 +19,16 @@ public class Utils {
         str = str + "222";
         method(str);
         System.out.println(str);
+        String str1 = "测试是否自动合并第一版";
+        String str2 = "测试sourcetree";
 
     }
 
     public static void method (String str){
         str = str +"333";
         System.out.println(str);
-        String str1 = "修改dev第三版";
+        String str1 = "左侧为被合并分支，右侧为自己的开发分支";
+		String str1 = "冲突文件中，未冲突的地方idea不会自动合并，sourcetree会自动合并";
     }
 
 }
