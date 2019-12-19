@@ -34,7 +34,7 @@ public class Utils {
 
 
         //测试回滚
-        String str3 = "回滚至当前节点，修改发送冲突";
+        String str3 = "回滚至当前节点";
 
     }
 
