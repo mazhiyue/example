@@ -19,6 +19,7 @@ public class Utils {
         str = str + "222";
         method(str);
         System.out.println(str);
+        String str1 = "测试是否自动合并第一版";
 
     }
 
