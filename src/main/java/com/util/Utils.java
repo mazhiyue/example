@@ -20,6 +20,7 @@ public class Utils {
         method(str);
         System.out.println(str);
         String str1 = "测试是否自动合并第一版";
+        String str2 = "测试sourcetree";
 
     }
 
