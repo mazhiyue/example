@@ -25,6 +25,7 @@ public class Utils {
     public static void method (String str){
         str = str +"333";
         System.out.println(str);
+        String str1 = "修改master第一版";
     }
 
 }
