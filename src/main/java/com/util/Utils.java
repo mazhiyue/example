@@ -31,6 +31,11 @@ public class Utils {
         String str1 = "优先使用idea的pull选取两个分支合并代码时，左侧为pull远程分支后的最新代码，右侧为本地开发代码";
         String str2 = "pull时左侧为本地修改后的最新版本，右侧为远程分支版本";
         String str4 = "冲突文件中，未冲突的地方idea不会自动合并，sourcetree会自动合并";
+
+
+        //测试回滚
+        String str3 = "回滚至当前节点";
+
     }
 
 }
