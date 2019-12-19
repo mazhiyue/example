@@ -27,8 +27,10 @@ public class Utils {
     public static void method (String str){
         str = str +"333";
         System.out.println(str);
-        String str1 = "左侧为被合并分支，右侧为自己的开发分支";
-		String str1 = "冲突文件中，未冲突的地方idea不会自动合并，sourcetree会自动合并";
+        //pull及mager是发生冲突的情况
+        String str1 = "优先使用idea的pull选取两个分支合并代码时，左侧为pull远程分支后的最新代码，右侧为本地开发代码";
+        String str2 = "pull时左侧为本地修改后的最新版本，右侧为远程分支版本";
+        String str4 = "冲突文件中，未冲突的地方idea不会自动合并，sourcetree会自动合并";
     }
 
 }
